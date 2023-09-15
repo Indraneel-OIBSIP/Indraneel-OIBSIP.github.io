@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgba(5, 5, 48, 0.948);
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgba(41, 41, 115, 0.945);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 55px;
+    font-weight: bold;
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+main hr{
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.4px;
+    margin: 40px 80px;
+}
+nav ul li a:hover{
+    color: rgba(79, 243, 79, 0.829);
+    font-size: 1.2rem;
+ }
+.left{
+    font-size: 1.65rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 140px 0;
+}
+.firstSection > div{
+    width: 30%;
+}
+.leftsection{
+    font-size: 2.5rem;
+}
+.leftsection .btn-left{
+    padding: 12px;
+    background-color:rgba(137, 23, 168, 0.903);
+    color: aliceblue;
+    font-size: 15px;
+    cursor: pointer;
+}
+.leftsection .btn-right{
+    padding: 12px;
+    background-color:rgba(137, 23, 168, 0.903);
+    color: aliceblue;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn-left:hover{
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+}
+.btn-right:hover{
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+}
+.leftsection .buttons{
+    padding-top: 20px;
+}
+.rightsection img{
+  width: 80%;
+}
+.textpurple{
+    color: rgb(123, 67, 174);
+}
+.textgrey{
+    color: gray;
+}
+#element{
+    color: aqua;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.secondsection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+}
+.secondsection .vertical{
+    height: 95px;
+    width: 2px;
+    background-color: white;
+    margin: 0 125px;
+    
+}
+.imagebox1{
+    width: 26px;
+    position: relative;
+    top: -36px;
+    left: -9px;
+}
+.vertical-title{
+position: relative;
+top: 75px;
+width: 150px;
+font-size: 14px;
+}
+.vertical-desc{
+    position: relative;
+     top: 86px;
+     width: 150px;
+     font-size: 9px;
+     color: rgb(163, 159, 159);
+}
+.thirdsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.thirdsection h1{
+    font-size: 1.9rem;
+}
+.thirdsection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+}
+.thirdsection .vertical{
+    height: 95px;
+    width: 2px;
+    background-color: white;
+    margin: 0 125px;
+    
+}
+.imagebox2{
+    width: 30px;
+    position: relative;
+    top: -36px;
+    left: -9px;
+}
+.vertical-title{
+position: relative;
+top: 80px;
+width: 180px;
+font-size: 14px;
+}
+.vertical-desc{
+    position: relative;
+     top: 86px;
+     width: 150px;
+     font-size: 9px;
+     color: rgb(163, 159, 159);
+}
+.headline h3{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.headline p{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 1px;
+    color: grey;
+    
+}
+ .third-main .basic-box{
+    padding-left: 20%;
+}
+.basic-box .text-id{
+    width: 400px;
+    height: 65px;
+    border-radius: 8px;
+    margin: 5px 2px;
+    background-color: beige;
+}
+.basic-box .text-email{
+    width: 400px;
+    height: 65px;
+    border-radius: 8px;
+    margin: 5px 2px;
+    background-color: beige;
+}
+.basic-box .text-project{
+    width: 400px;
+    height: 65px;
+    border-radius: 8px;
+    margin: 5px 2px;
+    background-color: rgb(234, 234, 206);
+}
+.basic-box .text-mesg{
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 5px 2px;
+    background-color: rgb(235, 235, 204);
+}
+.basic-box .btn2 {
+    margin: 10px 0 20px 5px;
+    width: 150px;
+    height: 45px;
+    background-color: rgba(137, 23, 168, 0.903);
+    color: aliceblue;
+    border-radius: 10px; 
+}
+.basic-box .btn2:hover {
+    border-radius: 15px 10px;
+    border: 2px solid whitesmoke; 
+}
+::placeholder{
+ text-indent: 20px;    
+ color: black;
+ font-size: 15px;
+ padding-top: 10px;
+}
+.third-main {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;        
+  }
+  .left-box {
+    flex: 1; 
+    padding: 50px; 
+  }
+  
+  .right-box {
+    flex: 1; 
+    padding: 50px; 
+  }
+  
+  .basic-box {
+    margin-bottom: 10px; 
+  }  
+
+.left-box {
+  display: flex;
+  flex-direction: column; 
+ 
+}
+
+.contact-logo,
+.Email-logo,
+.location-logo {
+  display: flex;
+  align-items: center;
+  margin : 20px 0 10px 0;
+}
+
+.contact-logo img,
+.Email-logo img,
+.location-logo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.contact-info {
+  flex-grow: 1; 
+}
+.contact-info h2,
+.contact-info p {
+  margin: 0;
+}
+.footer h3{
+    font-size: 15px;
+    width: 200px;
+    padding-top :5px ;
+}
+footer{
+    background-color: rgb(30, 30, 53);
+}
+.footer{
+    display: flex;
+    padding: 23px 125px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 125px;
+}
+footer .footer-right{
+    text-align: center;
+   color: rgb(122, 119, 119);
+   padding: 12px 0;
+   
+}
+.Second{
+    margin-left: 200px;
+}
+.Third-logo img,
+.Fourth-logo img,
+.fifth-logo img
+{
+    width: 30px;
+    margin-left: 2px;
+}
+ .arrow img{
+    width: 40px;
+    position: relative; 
+    top: -100px; 
+    left: 95%; 
+}
+/* Small screens (phones) */
+@media screen and (min-width: 820px ) 
+{  
+      
+    .coloum{
+        width: 100%;
+    }
+    .leftsection {
+        font-size: 1.8rem;
+    }
+    .leftsection .btn-left,
+    .leftsection .btn-right {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .rightsection img {
+        max-width: 100%;
+    }
+
+    .secondsection h1 {
+        font-size: 1.5rem;
+    }
+
+    .vertical-title {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .vertical-desc {
+        font-size: 10px;
+    }
+
+    .thirdsection h1 {
+        font-size: 1.5rem;
+    }
+
+    .basic-box .text-id,
+    .basic-box .text-email,
+    .basic-box .text-project {
+        width: 100%;
+    }
+
+    .basic-box .text-mesg {
+        height: 400;
+    }
+
+    .basic-box .btn2 {
+        width: 30%;
+        font-size: 14px;
+        padding: 8px;
+    }
+    
+}
